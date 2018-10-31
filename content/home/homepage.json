@@ -1,0 +1,42 @@
+{
+  "title": "Home",
+  "content": "intro.md",
+  "gallery": [{
+    "title": "Public Relations",
+    "copy": "Our process is end to end starting with developing your communications strategy all the way to delivering media coverage.",
+    "image": "../images/gallery/react-context.jpg"
+  },
+  {
+    "title": "Brand Management ",
+    "copy": "We help identify and articulate what your brand stands for, its core purpose, your positioning and messaging. ",
+    "image": "../images/gallery/page-transitions.jpg"
+  },
+  {
+    "title": "Communications Coaching",
+    "copy": "Our coaching will prepare you to be in the spotlight - from media training, to speech training, to one-on-one communications coaching - it is a tailored approach of message development, training and practice. ",
+    "image": "../images/gallery/intersection-observer.jpg"
+  }],
+    "staff": [{
+    "title": "Stacy Morris, Founder",
+    "copy": "Futurista Communications is founded and led by Stacy Morris. Stacy has more than 15 years experience helping companies develop communications and brand strategies. She spent approximately 10 years working at BMW of North America where she led numerous award winning PR campaigns and was responsible for the communications strategy for multiple divisions within the business. Stacy left BMW to become Head of Communications & Marketing for Faraday Future, an electric vehicle startup. At Faraday, she led the brand strategy, messaging and PR for the company. Stacy has a Bachelor of Arts and Business Degree with a major in Psychology and minors in Communications and Human Resource Management from the University of Waterloo in Canada. ",
+    "image": "../images/staff/stacy.png"
+  },
+  {
+    "title": "Adam Thomson, Media Expert ",
+    "copy": "Adam spent 20 years at the Financial Times as an editor, correspondent and business reporter. Most recently Adam was based in Paris covering the luxury sector, travel and leisure, retail and telecoms and media. Previous experience includes extensive reporting in Latin America and South America, from Mexico City, Buenos Aires and Bogota. As a UK native, Adam also worked as assistant features editor at the FT in London, commissioning and editing analysis articles and opinion pieces by some of the world's leading thinkers. Currently, Adam lives in Santa Monica, California with his family where he is a freelance writer and trains executives on best practices for media interviews. ",
+    "image": "../images/staff/stacy.png"
+  }],
+    "approach": [{
+    "intro": "With our past experience both in house and as consultants, we operate like a member of your team in a collaborative process. We take your desires for your brand and develop strategies, messages, plans and execute PR campaigns.  ",
+    "copy": "With 15 years of experience doing PR, we understand that most startups have a complicated story. ",
+    "image": "../images/gallery/intersection-observer.jpg"
+  },
+  {
+    "copy": "We dive in and work with you to “open the kimono” as a way to unpack and straighten out your company’s incredible story",
+    "image": "../images/gallery/intersection-observer.jpg"
+  },
+{
+    "copy": "Futurista takes your goals and creates clear and concise communications.",
+    "image": "../images/gallery/intersection-observer.jpg"
+  }]
+}
