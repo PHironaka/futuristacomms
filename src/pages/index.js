@@ -17,7 +17,6 @@ const Index = ({ data }) => (
         <source src={Video} type="video/mp4" />
     </video>
     <Box>
-
       <Title >
         <svg width="43" height="86" viewBox="0 0 43 86" >
   <g id="Page-1" fill="none" fillRule="evenodd">
@@ -26,19 +25,17 @@ const Index = ({ data }) => (
     </g>
   </g>
 </svg>
-
         <h2 > {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}</h2>
-      </Title>
-
-     
-    <div className="intro" dangerouslySetInnerHTML={{   __html: data.aboutJson.content.childMarkdownRemark.html,
+      </Title>  </Box>
+   <div className="about-home">
+    <div className="intro " dangerouslySetInnerHTML={{   __html: data.aboutJson.content.childMarkdownRemark.html,
         }}
       />
-    </Box>
+      </div>
+  
 
     <Gallery items={data.homeJson.gallery} />
     <Staff items={data.homeJson.staff} />
-
     <Approach items={data.homeJson.approach} />
     <img src={City} alt="approach" className="city" />
     <Footer />

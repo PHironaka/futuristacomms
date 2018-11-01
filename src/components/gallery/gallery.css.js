@@ -5,11 +5,12 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6rem;
-  padding: 0 4rem;
-  margin: 2rem 0;
+  padding: 5em 4rem;
+  margin:  0;
+  background: #e4e4e4;
 
  .gatsby-image-wrapper {
- 	max-width:140px;
+ 	max-width:130px;
  }
 
   ${MEDIA.TABLET`

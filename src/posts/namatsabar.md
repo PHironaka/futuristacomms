@@ -5,8 +5,6 @@ path: '/namatsabar'
 templateKey: exhibition
 showing: 'August 10 through September 16, 2018'
 hours: 'M-F 8m-9pm'
-image: './img/tsabar.jpg'
-cover: 'tsabar.jpg'
 artist: 'Nama Tsabar'
 ---
 

@@ -13,6 +13,7 @@ export const Title = styled.span`
   font-size: 2rem;
   font-weight: 500;
   margin: 2rem 2rem 1rem;
+  color:#627a9c;
 `;
 
 export const Copy = styled.p`

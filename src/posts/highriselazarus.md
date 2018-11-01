@@ -5,8 +5,6 @@ path: '/high-rise-lazarus'
 templateKey: exhibition
 showing: 'July 15 – August 14, 2017'
 hours: 'opening reception Saturday June 9th, 6-8pm'
-image: './img/9999.jpg'
-cover: 'lazarus.jpg'
 artist: 'Jonah Freeman and Justin Lowe'
 ---
 

@@ -1,10 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 2rem 4rem;
+  padding: 0;
 
-  .intro {
-  	max-width:590px;
-  	margin: 3em auto;
-  }
+
 `;

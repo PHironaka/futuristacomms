@@ -49,6 +49,28 @@ export default createGlobalStyle`
     font-variant-numeric: proportional-nums;
   }
 
+  .about-home {
+background: url(./about.png) no-repeat center center;
+
+    background-size: auto auto;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+
+min-height: 411px;
+  }
+
+    .intro {
+    max-width:590px;
+    margin: 0em auto;
+    padding:6em 0;
+  }
+
   ol, ul {
     list-style: none;
   }

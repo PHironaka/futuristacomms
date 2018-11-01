@@ -7,7 +7,9 @@ export const Container = styled.div`
     text-align:center;
 
   p {
-    font-size:.8em;
+    font-size:.7em;
     padding:10px 0;
+    text-transform:uppercase;
+    letter-spacing:2px;
   }
 `;

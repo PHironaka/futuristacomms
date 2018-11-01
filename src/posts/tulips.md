@@ -5,8 +5,6 @@ path: '/tulips'
 templateKey: exhibition
 showing: 'August 10 through September 16, 2018'
 hours: 'M-F 8am-9pm'
-image: './img/lucien.jpg'
-cover: 'lucien.jpg'
 artist: 'Lucien Smith'
 ---
 

@@ -1,26 +1,14 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import { Container } from './nav.css';
 
 const Nav = () => (
   <Container>
-    <ul>
-      <li>
-        <Link to="/about">About</Link>
-      </li>
-      <li>
-        <a href="https://github.com/fabe/gatsby-universal">Services</a>
-      </li>
-
-        <li>
-        <Link to="/about">Work</Link>
-      </li>
-      <li>
-        <a href="https://github.com/fabe/gatsby-universal">Client News</a>
-      </li>
-
-
-    </ul>
+  <h2>Contact </h2>
+    <form action="https://thechinatownmarket.us14.list-manage.com/subscribe/post?u=7641b08f28511416c16beebae&amp;id=31712a1353" method="post"  name="mc-embedded-subscribe-form"  target="_blank" >
+         <input type="name" className="field" name="Name" placeholder="Name" required />
+         <input type="email" className="field" name="Email" placeholder="Email" required />
+         <div className="submit-email"><input type="submit" value="Submit" /></div>
+      </form>
   </Container>
 );
 
