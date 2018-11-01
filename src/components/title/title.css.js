@@ -1,24 +1,26 @@
 import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
 
-export const Text = styled.span`
+export const Text = styled.div`
+
   display: block;
-  font-weight: ${({ size }) => () => {
-    switch (size) {
-      case 'large':
-        return '400';
-      default:
-        return '500';
-    }
-  }};
-  font-size: ${({ size }) => () => {
-    switch (size) {
-      case 'large':
-        return '3.2rem';
-      default:
-        return '2rem';
-    }
-  }};
+
+font-weight: 500;
+
+font-size: 1.5em;
+
+line-height: 1.2;
+
+position: absolute;
+
+top: 200px;
+
+color: white;
+
+width: 100%;
+left:0;
+
+text-align: center;
   line-height: 1.2;
 
   ${MEDIA.TABLET`
@@ -31,4 +33,12 @@ export const Text = styled.span`
       }
     }};
   `};
+
+  h2 {
+    text-transform:uppercase;
+  }
+
+  svg {
+    margin-bottom:1em;
+  }
 `;

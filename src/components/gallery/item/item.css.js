@@ -5,6 +5,7 @@ export const Column = styled.figure`
   border-top:1px solid;
   border-bottom:1px solid;
   padding:1em 0;
+
 `;
 
 export const Title = styled.span`

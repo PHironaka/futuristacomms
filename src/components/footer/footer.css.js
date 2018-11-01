@@ -53,6 +53,6 @@ margin: 10px 0;
     margin:10px 0 2em;
     padding-top:1em;
     border-top:1px solid #fff;
-    max-width: 248px;
+    max-width: 262px;
   }
 `;

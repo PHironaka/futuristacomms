@@ -26,7 +26,7 @@ const Header = () => (
       <Link to="/">
         <svg width="191" height="41" viewBox="0 0 191 41" xmlns="http://www.w3.org/2000/svg">
   <g id="Page-1" fill="none" fillRule="evenodd">
-    <g id="Word-Mark-Black" fill="#000">
+    <g id="Word-Mark-Black" fill="#fff">
       <path id="Fill-4" d="M10 5.84H5.81v3.13h4.04v1.84H5.81V17H4V4h6z"/>
       <path d="M15.83 4v7.69c0 1.1.17 1.9.52 2.4.5.74 1.22 1.1 2.15 1.1.92 0 1.64-.36 2.15-1.1.34-.48.52-1.28.52-2.4V4H23v8.22c0 1.35-.4 2.45-1.2 3.32-.9.98-2 1.46-3.3 1.46a4.3 4.3 0 0 1-3.3-1.46 4.73 4.73 0 0 1-1.2-3.32V4h1.83z" id="Fill-6"/>
       <path id="Fill-8" d="M32 5.84V17H30V5.84H27V4h8v1.84z"/>

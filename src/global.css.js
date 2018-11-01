@@ -36,7 +36,7 @@ export default createGlobalStyle`
   body {
     font-family: futura-pt, sans-serif;
 
-
+    overflow-x:hidden;
     line-height: 1.6;
     font-size: 1.6rem;
     color: #000;
@@ -85,6 +85,13 @@ export default createGlobalStyle`
     font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
   }
 
+  video {
+    margin-top: -8em;
+  }
+
+  .city {
+    display:block;
+  }
 
   img, video {
     max-width: 100%;

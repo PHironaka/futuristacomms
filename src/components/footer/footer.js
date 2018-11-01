@@ -23,7 +23,7 @@ const Header = () => (
     <g id="Full-Logo-White">
       <g id="Group-2" transform="translate(1 2)">
         <g id="Group-3">
-          <mask id="mask-2" fill="#fff">
+          <mask id="mask-2" fill="#616c78">
             <use xlinkHref="#path-1"/>
           </mask>
             <path d="M21.6 74.98a4.2 4.2 0 0 1-3.92 1.07 4.2 4.2 0 0 1-3.03-2.72 4.19 4.19 0 0 1 .63-4.01l5.68-7.44 1.89 9.24a4.19 4.19 0 0 1-1.25 3.86zM18.4 8.23a4.18 4.18 0 0 1 3.93-1.06 4.19 4.19 0 0 1 3.03 2.71 4.2 4.2 0 0 1-.63 4.02l-5.68 7.44-1.89-9.24a4.19 4.19 0 0 1 1.25-3.87zm7.78 46.8l13.67-17.9-4.97-3.8-10.55 13.83-3.62-17.7 9-11.77a10.47 10.47 0 0 0 1.54-9.91c-1.2-3.37-4-5.87-7.48-6.7-3.47-.82-7.1.16-9.68 2.63a10.47 10.47 0 0 0-3.07 9.55l2.81 14.92L.16 46.09l4.97 3.8 10.55-13.83 3.62 17.69-9 11.78a10.47 10.47 0 0 0-1.54 9.9c1.2 3.37 4 5.87 7.47 6.7a10.46 10.46 0 0 0 9.68-2.62A10.47 10.47 0 0 0 29 69.95l-2.81-14.93z" id="Fill-1" fill="#FFF" mask="url(#mask-2)"/>
@@ -62,15 +62,15 @@ const Header = () => (
      <ul className="social">
 
 
- <li><a href="mailto:hello@danfordworks.com"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></a></li>
+ <li><a href="mailto:hello@danfordworks.com"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#616c78" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></a></li>
   
 
-    <li><a href="mailto:hello@danfordworks.com"><svg fill="white" height="20" strokeLinecap="round" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m18 2h-3a5 5 0 0 0 -5 5v3h-3v4h3v8h4v-8h3l1-4h-4v-3a1 1 0 0 1 1-1h3z"/></svg></a></li>
+    <li><a href="mailto:hello@danfordworks.com"><svg fill="#616c78" height="20" strokeLinecap="round" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m18 2h-3a5 5 0 0 0 -5 5v3h-3v4h3v8h4v-8h3l1-4h-4v-3a1 1 0 0 1 1-1h3z"/></svg></a></li>
   
  
   <li>
   
-  <a href="mailto:hello@danfordworks.com"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white"  strokeLinecap="round" strokeLinejoin="round" className="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></li>
+  <a href="mailto:hello@danfordworks.com"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#616c78"  strokeLinecap="round" strokeLinejoin="round" className="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></li>
   </ul>
 </div>
       <Nav />
