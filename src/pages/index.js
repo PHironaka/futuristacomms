@@ -36,8 +36,11 @@ const Index = ({ data }) => (
   
 
     <Gallery items={data.homeJson.gallery} />
+
      <Box>
    <div className="index-items">
+<h2>Approach</h2>
+   
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div className="client-post" key={node.id}>
 <Img fluid={node.frontmatter.cover.childImageSharp.fluid} />
@@ -51,7 +54,10 @@ const Index = ({ data }) => (
          <Link to="/about" className="view">View More</Link>
       </div>
        </Box>
+
+
     <Staff items={data.homeJson.staff} />
+    
     <Approach items={data.homeJson.approach} />
     <img src={City} alt="approach" className="city" />
     <Footer />

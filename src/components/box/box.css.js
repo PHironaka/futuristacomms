@@ -8,7 +8,16 @@ export const Container = styled.div`
 	padding: 0 4em;
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr;
-	grid-gap:3em;
+	grid-gap:2em;
+	
+	h2 {
+		font-weight: 500;
+  grid-column:1/-1;
+	  color: #365b8b;
+  font-size: 1.2em;
+  text-transform:uppercase;
+  padding:3em 0 0;
+}
 
 	.view {
 		text-align: center;
@@ -23,7 +32,10 @@ padding: .4em .6em;
 	}
 
 	.client-post {
-		padding: 2em 0 0 ;
+border-top: 1px solid;
+padding: 1em 0 1px;
+
+
 
 	}
 

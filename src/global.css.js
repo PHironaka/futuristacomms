@@ -63,7 +63,7 @@ background: url(./client-news.jpg) no-repeat center center;
 
 background-size: cover;
 
-min-height: 411px;
+min-height: 441px;
 
 
   ${MEDIA.TABLET`
@@ -99,6 +99,9 @@ min-height: 411px;
 
     p {
       font-size:1.2em;
+      span {
+    color:#365b8b;
+  }
     }
   }
 

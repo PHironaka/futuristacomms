@@ -12,6 +12,21 @@ export const Container = styled.div`
   margin: 2rem 0;
         // background: url(bg-city.png) no-repeat center center fixed; 
 
+ h2 , p {
+  grid-column:1/-1;
+ }       
+
+ p {
+  max-width:700px;
+ }
+
+h2 {
+  font-weight: 500;
+  color: #365b8b;
+  font-size: 1.2em;
+  margin-top:1.1em;
+  text-transform:uppercase;
+}
 
   ${MEDIA.TABLET`
     display: block;

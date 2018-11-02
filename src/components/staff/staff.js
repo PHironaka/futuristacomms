@@ -5,6 +5,10 @@ import { Container } from './staff.css';
 
 const Gallery = ({ items }) => (
   <Container>
+  <h2>Who we are</h2>
+<p> Futurista Communications is a collective of freelance communicators and collaborators based in Los Angeles.  </p>
+   
+
     {items.map((item, i) => (
       <Item {...item} key={i} />
     ))}
