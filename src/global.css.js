@@ -139,7 +139,7 @@ min-height: 411px;
   }
 
   video {
-    margin-top: -8em;
+    margin-top: -9em;
 
   }
 
