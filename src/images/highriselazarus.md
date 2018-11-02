@@ -1,13 +1,13 @@
 ---
-date: '2018-03-06'
-title: 'The Innovative Ways These Companies
-Are Managing Employee Stress '
-path: '/9999'
+date: '2018-06-06'
+title: 'Everyone Quit -- and This CEO Is Better Off Because of It '
+path: '/high-rise-lazarus'
 templateKey: exhibition
-showing: 'June 8 through July 8, 2018'
+showing: 'July 15 – August 14, 2017'
 hours: 'opening reception Saturday June 9th, 6-8pm'
-artist: 'Edsel Williams'
-cover: 'entrepreneur-logo-black.png'
+artist: 'Jonah Freeman and Justin Lowe'
+cover: '9999.jpg'
+
 ---
 
 Tulip mania was a period in the Dutch Golden Age during which contract prices for some

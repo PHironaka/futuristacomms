@@ -24,6 +24,8 @@ text-align: center;
   line-height: 1.2;
 
   ${MEDIA.TABLET`
+
+    top:100px;
     font-size: ${({ size }) => () => {
       switch (size) {
         case 'large':

@@ -1,11 +1,13 @@
 ---
 date: '2018-03-06'
-title: 'Tulips!'
+title: 'A Meditating Truck Company: What Investing in Company Culture Really Looks Like'
 path: '/tulips'
 templateKey: exhibition
 showing: 'August 10 through September 16, 2018'
 hours: 'M-F 8am-9pm'
 artist: 'Lucien Smith'
+cover: 'entrepreneur-logo-black.png'
+
 ---
 
 T was a period in the Dutch Golden Age during which contract prices for some

@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
+  siteTitle: `Futurista Communications`,
+  siteTitleShort: `FuturistaComms`,
+  siteDescription: `Futurista Communications is a Los Angeles based communications and public relations consultancy. `,
+  siteUrl: `https://futuristacommunications.com`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,

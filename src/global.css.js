@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import { accent } from 'constants/theme';
+import MEDIA from 'helpers/mediaTemplates';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -49,6 +50,28 @@ export default createGlobalStyle`
     font-variant-numeric: proportional-nums;
   }
 
+  .index-items {
+background: url(./client-news.jpg) no-repeat center center;
+
+    background-size: auto auto;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+
+min-height: 411px;
+
+
+  ${MEDIA.TABLET`
+min-height: 473px;
+  `};
+
+  }
+
   .about-home {
 background: url(./about.png) no-repeat center center;
 
@@ -66,9 +89,17 @@ min-height: 411px;
   }
 
     .intro {
-    max-width:590px;
+    max-width:680px;
     margin: 0em auto;
     padding:6em 0;
+ ${MEDIA.TABLET`
+    padding:2em ;
+  `};
+
+
+    p {
+      font-size:1.2em;
+    }
   }
 
   ol, ul {
@@ -109,6 +140,7 @@ min-height: 411px;
 
   video {
     margin-top: -8em;
+
   }
 
   .city {

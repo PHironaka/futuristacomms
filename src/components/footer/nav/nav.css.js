@@ -1,8 +1,12 @@
 import styled from 'styled-components';
+import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.div`
   padding-left:4em;
-
+${MEDIA.TABLET`
+  padding-left:0;
+    
+  `};
   h2 {
     margin-top:2em;
   }

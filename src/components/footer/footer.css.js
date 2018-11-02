@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.footer`
   display: grid;
@@ -9,9 +10,16 @@ export const Container = styled.footer`
   background:#2f3e4f;
   color:white;
 
+  ${MEDIA.TABLET`
+    display: block;
+  `};
+
   .contact-left {
   border-right:1px solid ;
 
+  ${MEDIA.TABLET`
+  border-right:none ;
+  `};
   }
 
   .contact-info {

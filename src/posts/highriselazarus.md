@@ -1,11 +1,13 @@
 ---
 date: '2018-06-06'
-title: 'High Rise Lazarus '
+title: 'Everyone Quit -- and This CEO Is Better Off Because of It '
 path: '/high-rise-lazarus'
 templateKey: exhibition
 showing: 'July 15 – August 14, 2017'
 hours: 'opening reception Saturday June 9th, 6-8pm'
 artist: 'Jonah Freeman and Justin Lowe'
+cover: 'entrepreneur-logo-black.png'
+
 ---
 
 Tulip mania was a period in the Dutch Golden Age during which contract prices for some

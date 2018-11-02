@@ -7,9 +7,10 @@ import Gallery from 'components/gallery';
 import Approach from 'components/approach';
 import Staff from 'components/staff';
 import Footer from 'components/footer';
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import City from './bg-city.png';
 import Video from './bg-video.mp4';
+import Img from 'gatsby-image';
 
 const Index = ({ data }) => (
   <Layout>
@@ -35,6 +36,21 @@ const Index = ({ data }) => (
   
 
     <Gallery items={data.homeJson.gallery} />
+     <Box>
+   <div className="index-items">
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div className="client-post" key={node.id}>
+<Img fluid={node.frontmatter.cover.childImageSharp.fluid} />
+           <h3>
+              {node.frontmatter.title}
+            </h3>
+
+          </div>
+        ))}
+
+         <Link to="/about" className="view">View More</Link>
+      </div>
+       </Box>
     <Staff items={data.homeJson.staff} />
     <Approach items={data.homeJson.approach} />
     <img src={City} alt="approach" className="city" />
@@ -58,6 +74,8 @@ export const query = graphql`
           rawMarkdownBody
         }
       }
+
+
       gallery {
         title
         copy
@@ -105,5 +123,26 @@ export const query = graphql`
         }
       }
     }
+
+      allMarkdownRemark (filter: { fileAbsolutePath: {regex : "\/posts/"} }, limit:3) {
+    edges {
+      node {
+        id
+        frontmatter {
+          cover {
+              childImageSharp {
+              fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+               }
+              }
+            }
+            
+          title
+          
+        }
+      }
+    }
+  }
+
   }
 `;

@@ -6,6 +6,9 @@ display:grid;
 grid-template-columns: 150px 2fr;
 grid-gap:4em;
   padding:1em 0;
+  ${MEDIA.TABLET`
+display:block;
+  `};
 `;
 
 export const Title = styled.span`
